@@ -3,7 +3,7 @@ layout: home
 permalink: index.html
 
 # Please update this with your repository name and title
-repository-name: eYY-4yp-project-template
+repository-name: e18-4yp-Multimodal-Emotion-Prediction-Using-Reinforcement-Learning
 title:
 ---
 
@@ -13,14 +13,14 @@ title:
 
 #### Team
 
-- eNumber, Name, [email](mailto:name@email.com)
-- eNumber, Name, [email](mailto:name@email.com)
-- eNumber, Name, [email](mailto:name@email.com)
+- e18354, Ruchira Tharaka, [email](mailto:e18354@eng.pdn.ac.lk)
+- e18318, Piyumali Sandunika, [email](mailto:e18318@eng.pdn.ac.lk)
+- e18022, Didula Induwara, [email](mailto:e18022@eng.pdn.ac.lk)
 
 #### Supervisors
 
-- Name, [email](mailto:name@eng.pdn.ac.lk)
-- Name, [email](mailto:name@eng.pdn.ac.lk)
+- Dr. Dharshana Kasthurirathna , [email](mailto:dharshana.k@sliit.lk)
+- Ms. Yasodha Vimukthi, [email](mailto:yasodhav@eng.pdn.ac.lk)
 
 #### Table of content
 
@@ -34,12 +34,6 @@ title:
 8. [Links](#links)
 
 ---
-
-<!-- 
-DELETE THIS SAMPLE before publishing to GitHub Pages !!!
-This is a sample image, to show how to add images to your page. To learn more options, please refer [this](https://projects.ce.pdn.ac.lk/docs/faq/how-to-add-an-image/)
-![Sample Image](./images/sample.png) 
--->
 
 
 ## Abstract
