@@ -39,8 +39,7 @@ We’ve integrated pretrained models for each modality, and the system gets bett
 
 ### Ensemble model Architecture
 
-![Final_Presentation_Team 8](https://github.com/user-attachments/assets/01e249ca-11bd-4a91-807a-17d4eee88b85)
-
+![Final_Presentation_Team 8 (3)](https://github.com/user-attachments/assets/923c117d-4d48-4018-8fac-38feb2704da0)
 
 ### Experiments & Results
 
@@ -54,7 +53,7 @@ Here’s a quick look at how accurate the model is when it first analyzes the th
 
 As you can see, each person expresses their emotions differently. For example, Person 1 is more expressive with their voice, while Person 2 and 3 rely more on text. But for every situation, our ensembled model gives the highest accuracy of capturing the correct emotion based on its weighted average and iterative learning mechanisms.
 
-![Final_Presentation_Team 8 (2)](https://github.com/user-attachments/assets/b0b48581-57eb-4779-baaa-8a580a6df22f)
+![Final_Presentation_Team 8 (2) (1)](https://github.com/user-attachments/assets/cb1d1446-a023-457d-8b12-45200298f04b)
 
 
 ### Limitations and Future Enhancements
