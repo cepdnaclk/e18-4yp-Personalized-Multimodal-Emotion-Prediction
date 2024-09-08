@@ -32,10 +32,40 @@ title: Personalized Multimodal Emotion Prediction
 
 
 ## Project Summary
-Humans express emotions using different modalities. These modalities may include modalities such as facial expressions, vocal tone and the speech. Each person may express their emotions using different modalities in different proportions. In this work, we’ll try to propose an ensemble model that is based on reinforcement learning, that is capable of capturing the user specific weight of each modality in the expressions made by each user in predicting the emotional status.
 
-The proposed reinforcement learning model may learn iteratively from the users’ actual feedback to adjust the weights of the modalities. The proposed approach may be compared with standard ensemble models. If it performs better than standard generalized ensemble models, it may justify using personalized reinforcement learning models to capture the personal variations in the modalities of expression.
+Humans express emotions using different modalities like facial expressions, vocal tone and the speech. Each person may express their emotions using different modalities in different proportions. In this research, we introduce a personalized emotion prediction model that focuses on four key emotions: happy, sad, neutral, and angry. What makes this model special is its ability to adapt to each individual user, learning from how they personally express emotions and adjusting the importance of each modality accordingly.
 
+We’ve integrated pretrained models for each modality, and the system gets better over time through feedback from the users. Unlike traditional models that treat everyone the same, this one adapts in real-time, making the emotion detection more accurate and personalized for every user. We used a mechanism based on Online Learning and weighted average ensemble.
+
+### Ensemble model Architecture
+
+![Final_Presentation_Team 8](https://github.com/user-attachments/assets/01e249ca-11bd-4a91-807a-17d4eee88b85)
+
+
+### Experiments & Results
+
+Here’s a quick look at how accurate the model is when it first analyzes the three modalities for different people. The ensemble accuracy shows how well the model performs after it adjusts the weights for each user.
+
+| Person | Text  | Vocal Tone | Image | Ensemble Accuracy |
+|--------|-------|------------|-------|-------------------|
+| 1      | 0.649 | 0.746      | 0.377 | 0.762             |
+| 2      | 0.761 | 0.577      | 0.271 | 0.771             |
+| 3      | 0.815 | 0.569      | 0.342 | 0.822             |
+
+As you can see, each person expresses their emotions differently. For example, Person 1 is more expressive with their voice, while Person 2 and 3 rely more on text. But for every situation, our ensembled model gives the highest accuracy of capturing the correct emotion based on its weighted average and iterative learning mechanisms.
+
+![Final_Presentation_Team 8 (2)](https://github.com/user-attachments/assets/b0b48581-57eb-4779-baaa-8a580a6df22f)
+
+
+### Limitations and Future Enhancements
+
+One of the main challenges we face is that the datasets used for training might not capture the full range of cultural and age differences. This can lead to biases and affect the model’s ability to generalize in real-world scenarios. Online learning helps the model improve with new data, but issues like data imbalance, privacy concerns, and potential bias still need to be addressed.
+
+Also, since the model is currently trained on English language data, it might struggle with non-native English speakers, especially if their natural speech patterns differ. In the future, we could integrate translation APIs or fine-tune the model with multilingual datasets to make it more accurate for people from diverse linguistic backgrounds.
+
+### Conclusion
+
+In short, this model is a big step forward in personalized emotion detection. By continuously learning from user feedback and adjusting how it weighs different ways people express emotions, it offers more accurate predictions. While there are still challenges to overcome, especially around dataset diversity and multilingual support, this model is well-positioned for applications like mental health monitoring, human-computer interaction, and beyond.
 
 ![1](https://github.com/cepdnaclk/e18-4yp-Multimodal-Emotion-Prediction-Using-Reinforcement-Learning/assets/73444543/621d4328-bf19-46a1-bc6a-59217bbf0a7f)
 
