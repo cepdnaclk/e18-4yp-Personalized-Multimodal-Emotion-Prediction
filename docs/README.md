@@ -9,7 +9,7 @@ title:
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-# Project Title
+# Personalized Multimodal Emotion Prediction
 
 #### Team
 
@@ -19,7 +19,7 @@ title:
 
 #### Supervisors
 
-- Dr. Dharshana Kasthurirathna , [email](mailto:dharshana.k@sliit.lk)
+- Dr. Dharshana Kasthurirathna, [email](mailto:dharshana.k@sliit.lk)
 - Ms. Yasodha Vimukthi, [email](mailto:yasodhav@eng.pdn.ac.lk)
 
 #### Table of content
