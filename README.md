@@ -1,12 +1,6 @@
-# Multimodal emotion prediction using reinforcement learning
+# Personalized Multimodal Emotion Prediction
 
 
-Humans express emotions using different modalities. These modalities may 
-include modalities such as facial expressions, vocal tone and the speech. 
-Each person may express their emotions using different modalities in different 
-proportions. In this work, we’ll try to propose an ensemble model that is 
-based on reinforcement learning, that is capable of capturing the user specific 
-weight of each modality in the expressions made by each user in predicting the 
-emotional status.
+Humans express emotions using different modalities like facial expressions, vocal tone and the speech. Each person may express their emotions using different modalities in different proportions. In this research, we introduce a personalized emotion prediction model that focuses on four key emotions: happy, sad, neutral, and angry. What makes this model special is its ability to adapt to each individual user, learning from how they personally express emotions and adjusting the importance of each modality accordingly.
 
-The proposed reinforcement learning model may learn iteratively from the users’ actual feedback to adjust the weights of the modalities. The proposed approach may be compared with standard ensemble models. If it performs better than standard generalized ensemble models, it may justify using personalized reinforcement learning models to capture the personal variations in the modalities of expression. 
+We’ve integrated pretrained models for each modality, and the system gets better over time through feedback from the users. Unlike traditional models that treat everyone the same, this one adapts in real-time, making the emotion detection more accurate and personalized for every user. We used a mechanism based on Online Learning and weighted average ensemble.
